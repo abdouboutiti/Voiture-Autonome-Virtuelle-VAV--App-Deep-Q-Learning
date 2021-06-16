@@ -76,20 +76,17 @@ A chaque instant, le véhicule peut effectuer l’une des trois actions suivante
 
   Le réseau de neurone adopté pour l'apprentissage par renforcement profond cotient 3 couches:
 
-   
-         
-        1. Une couche d’entrée (input layer) : 5 nœuds
-         Dont chacun correspond à une variable d’état (Capteur1, Capteur2, Capteur3, Orientation et -Orientation)
-       
-         
-        2. Une couche cachée (hidden layer) : 30 nœuds
-         Une couche cachée suffit pour des problèmes aussi simples. D'autres prendraient plus de temps à s'entraîner et n'entraîneraient pas d'améliorations significatives des
-         performances. En effet, des études précédentes ont essayé plusieurs modèles de réseau de neurones à plusieurs couches cachées, mais ils n'ont pas amélioré la précision          de manière significative. Par conséquent, on a décidé d'utiliser une seule couche cachée car cela prend également moins de temps de calcul.
-         
-         
-        3. Une couche de sortie (output layer) : 3 nœuds
-         Dont chacun correspond à une action.
+   <ul>
+<li> Une couche d’entrée (input layer) : 5 nœuds
+     Dont chacun correspond à une variable d’état (Capteur1, Capteur2, Capteur3, Orientation et -Orientation)</li>
+<li>Une couche cachée (hidden layer) : 30 nœuds
+  Une couche cachée suffit pour des problèmes aussi simples. D'autres prendraient plus de temps à s'entraîner et n'entraîneraient pas d'améliorations significatives des
+  performances. En effet, des études précédentes ont essayé plusieurs modèles de réseau de neurones à plusieurs couches cachées, mais ils n'ont pas amélioré la précision          de manière significative. Par conséquent, on a décidé d'utiliser une seule couche cachée car cela prend également moins de temps de calcul.</li>
+<li>Une couche de sortie (output layer) : 3 nœuds
+    Dont chacun correspond à une action</li>
+</ul>
 
+         
 ### Fonctions d'activation
 
 Dans ce modèle d'apprentissage profond, deux fonctions d'activations sont appliquées:
