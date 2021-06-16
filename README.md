@@ -92,8 +92,8 @@ A chaque instant, le véhicule peut effectuer l’une des trois actions suivante
 Dans ce modèle d'apprentissage profond, deux fonctions d'activations sont appliquées:
 
 <ul>
-<li>La fonction **ReLU** est appliquée aux entrées du réseau, c'est à dire, aux variables d'état.</li>
-<li>La fonction **Softmax** est appliquée au vecteur des sorties du réseau, c'est à dire, celui des **Q valeurs** estimées de l'état passée entrée et de chacune des actions.</li>
+<li>La fonction ReLU est appliquée aux entrées du réseau, c'est à dire, aux variables d'état.</li>
+<li>La fonction Softmax est appliquée au vecteur des sorties du réseau, c'est à dire, celui des Q valeurs estimées de l'état passée entrée et de chacune des actions.</li>
 </ul>
          
 
