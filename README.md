@@ -31,11 +31,14 @@ Kivy est une bibliothèque de développement d'interface graphique multi-platefo
 ### État
 Dans cette application, un état est défini par 5 variables :
 
-    1.Capteur1 (Rouge)
-    2.Capteur2 (Bleu)
-    3.Capteur3 (Jaune)
-    4.Orientation
-    5.-Orientation
+<ul>
+<li>Capteur1 (Rouge)</li>
+<li>Capteur2 (Bleu)</li>
+<li>Capteur3 (Jaune)</li>
+<li>Orientation</li>
+<li>-Orientation</li>
+</ul>
+
 
 Les trois premières variables correspondent aux capteurs du véhicule. Chacun d’entre eux détecte le nombre de pixels de sable dans un carré  de surface 400 pixels (20*20) dont le centre coïncide avec celui du capteur.
 
@@ -48,18 +51,22 @@ Les variables « orientation » et « -orientation » mesurent en degrés l’or
 
 A chaque instant, le véhicule peut effectuer l’une des trois actions suivantes :
 
-   1.Tourner de 20° dans le sens des aiguilles d'une montre.
-   2.Tourner de 20° dans le sens direct.
-   3.Ne pas tourner
-
+<ul>
+<li>Tourner de 20° dans le sens des aiguilles d'une montre.</li>
+<li>Tourner de 20° dans le sens direct.</li>
+<li>Ne pas tourner</li>
+</ul>
 
 ### Récompenses:
 
-     1.Se rapprocher de l’objectif : +0.5
-     2.S’éloigner de l’objectif : -0.5
-     3.Toucher le sable : -2
-     4.Trop se rapprocher des bords de la carte : -1
-     5.Arriver à la destination : r=(nombre de pas)<sub>actuel</sub} - (nombre de pas)<sub>prec</sub}
+<ul>
+<li>Se rapprocher de l’objectif : +0.5</li>
+<li>S’éloigner de l’objectif : -0.5</li>
+<li>Toucher le sable : -2</li>
+<li>Trop se rapprocher des bords de la carte : -1</li>
+<li>-Arriver à la destination : r=(nombre de pas)<sub>actuel</sub>} - (nombre de pas)<sub>prec</sub>}</li>
+</ul>
+
 
 ## Réseau de neurones
 
@@ -86,8 +93,11 @@ A chaque instant, le véhicule peut effectuer l’une des trois actions suivante
 ### Fonctions d'activation
 
 Dans ce modèle d'apprentissage profond, deux fonctions d'activations sont appliquées:
-       1.La fonction **ReLU** est appliquée aux entrées du réseau, c'est à dire, aux variables d'état.
-       2.La fonction **Softmax** est appliquée au vecteur des sorties du réseau, c'est à dire, celui des **Q valeurs** estimées de l'état passée entrée et de chacune des actions.
+
+<ul>
+<li>La fonction **ReLU** est appliquée aux entrées du réseau, c'est à dire, aux variables d'état.</li>
+<li>La fonction **Softmax** est appliquée au vecteur des sorties du réseau, c'est à dire, celui des **Q valeurs** estimées de l'état passée entrée et de chacune des actions.</li>
+</ul>
          
 
 
