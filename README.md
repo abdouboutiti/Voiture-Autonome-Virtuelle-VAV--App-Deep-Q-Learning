@@ -1,7 +1,7 @@
 # Voiture-autonome---Application-de-Deep-Q--Learning
 Une application de voiture autonome créée à l'aide du package Kivy et d'un algorithme de deep Q-Learning.
 
-![fichiers_map_ai_kv](https://user-images.githubusercontent.com/57750350/122225830-52474a80-cead-11eb-8b66-56e22aff0fe1.png)
+![fichiers_map_ai_kv](https://user-images.githubusercontent.com/57750350/122225830-52474a80-cead-11eb-8b66-56e22aff0fe1.png width="200" height="200")
 
 
 
@@ -11,13 +11,13 @@ On commence par une carte vide. Le véhicule est équipé de 3 capteurs (rouge, 
 
 
 
-![mission](https://user-images.githubusercontent.com/57750350/122221712-756ffb00-cea9-11eb-8527-75a633e078a7.PNG)
+![mission](https://user-images.githubusercontent.com/57750350/122221712-756ffb00-cea9-11eb-8527-75a633e078a7.PNG width="200" height="200")
 
 L'utilisateur peut dessiner du "sable" en utilisant la sourie. La mission du véhicule est de faire des allers-retours du coin supérieur gauche au coin inférieur droit de la carte sans aucune collision, en choisissant à chaque état l’action qui lui permet de maximiser sa récompense. Une collision a lieu quand la voiture touche le sable.
 
 
 
-![map1](https://user-images.githubusercontent.com/57750350/122221894-a18b7c00-cea9-11eb-91a9-73b24e70bdda.png)
+![map1](https://user-images.githubusercontent.com/57750350/122221894-a18b7c00-cea9-11eb-91a9-73b24e70bdda.png width="200" height="200")
 
 Après chaque voyage qu'elle effectue, la voiture doit se rendre compte du nombre de pas qu'elle a mis pour arriver à sa destination. Il est préférable que ce nombre de pas soit inférieur à celui du voyage précédent.
 
@@ -65,7 +65,7 @@ A chaque instant, le véhicule peut effectuer l’une des trois actions suivante
 
 ### Structure du réseau
 
-![neuralNetworkApp](https://user-images.githubusercontent.com/57750350/122224169-c254d100-ceab-11eb-982d-81dc532aa6c9.png)
+![neuralNetworkApp](https://user-images.githubusercontent.com/57750350/122224169-c254d100-ceab-11eb-982d-81dc532aa6c9.png width="200" height="200")
 
   Le réseau de neurone adopté pour l'apprentissage par renforcement profond cotient 3 couches:
 
