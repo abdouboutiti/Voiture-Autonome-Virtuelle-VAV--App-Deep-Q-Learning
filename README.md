@@ -1,7 +1,7 @@
 # Voiture-autonome---Application-de-Deep-Q--Learning
 Une application de voiture autonome créée à l'aide du package Kivy et d'un algorithme de deep Q-Learning.
 
-![fichiers_map_ai_kv](https://user-images.githubusercontent.com/57750350/122225830-52474a80-cead-11eb-8b66-56e22aff0fe1.png)
+![fichiers_map_ai_kv]
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/57750350/122225830-52474a80-cead-11eb-8b66-56e22aff0fe1.png?raw=true" alt="Sublime's custom image"/>
