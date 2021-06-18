@@ -3,7 +3,9 @@ Une application de voiture autonome créée à l'aide du package Kivy et d'un al
 
 ![fichiers_map_ai_kv](https://user-images.githubusercontent.com/57750350/122225830-52474a80-cead-11eb-8b66-56e22aff0fe1.png)
 
-
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/57750350/122225830-52474a80-cead-11eb-8b66-56e22aff0fe1.png?raw=true" alt="Sublime's custom image"/>
+</p>
 
 ## Description de l'application
 On a utilisé le package kivy sous Python pour créer un environnement de véhicule autonome.
