@@ -82,7 +82,6 @@ A chaque instant, le véhicule peut effectuer l’une des trois actions suivante
   <img width="444" height="332" src="https://user-images.githubusercontent.com/57750350/122224169-c254d100-ceab-11eb-982d-81dc532aa6c9.png?raw=true" alt="Sublime's custom image"/>
 </p>
 
-()
 
   Le réseau de neurone adopté pour l'apprentissage par renforcement profond cotient 3 couches:
 
