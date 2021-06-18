@@ -12,8 +12,10 @@ On a utilisé le package kivy sous Python pour créer un environnement de véhic
 On commence par une carte vide. Le véhicule est équipé de 3 capteurs (rouge, jaune et bleu). Au début, il circule de manière aléatoire dans la carte.
 
 
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/57750350/122221712-756ffb00-cea9-11eb-8527-75a633e078a7.PNG?raw=true" alt="Sublime's custom image"/>
+</p>
 
-![mission](https://user-images.githubusercontent.com/57750350/122221712-756ffb00-cea9-11eb-8527-75a633e078a7.PNG )
 
 L'utilisateur peut dessiner du "sable" en utilisant la sourie. La mission du véhicule est de faire des allers-retours du coin supérieur gauche au coin inférieur droit de la carte sans aucune collision, en choisissant à chaque état l’action qui lui permet de maximiser sa récompense. Une collision a lieu quand la voiture touche le sable.
 
