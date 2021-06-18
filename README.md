@@ -70,7 +70,7 @@ A chaque instant, le véhicule peut effectuer l’une des trois actions suivante
 <li>S’éloigner de l’objectif : -0.5</li>
 <li>Toucher le sable : -2</li>
 <li>Trop se rapprocher des bords de la carte : -1</li>
-<li>-Arriver à la destination : r=(nombre de pas)<sub>actuel</sub>} - (nombre de pas)<sub>prec</sub>}</li>
+<li>-Arriver à la destination : r=(nombre de pas)<sub>actuel</sub> - (nombre de pas)<sub>prec</sub></li>
 </ul>
 
 
