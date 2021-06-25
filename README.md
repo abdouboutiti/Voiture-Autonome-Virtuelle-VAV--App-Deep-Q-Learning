@@ -3,7 +3,7 @@
 
 
 <p align="center">
-  <img width="735" height="315" src="https://user-images.githubusercontent.com/57750350/123353569-b4f9af80-d559-11eb-9b42-f322be3396de.png?raw=true"alt="Sublime's custom image"/>
+  <img width="389" height="206" src="https://user-images.githubusercontent.com/57750350/123353569-b4f9af80-d559-11eb-9b42-f322be3396de.png?raw=true"alt="Sublime's custom image"/>
 </p>
 
 
