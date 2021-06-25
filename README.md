@@ -1,4 +1,6 @@
-# Voiture-autonome---Application-de-Deep-Q--Learning
+# Voiture Autonome Virtuelle (VAV) : application de deep Q-Learning
+
+
 Une application de voiture autonome créée à l'aide du package Kivy et d'un algorithme de deep Q-Learning.
 
 
