@@ -37,7 +37,8 @@ Après chaque voyage qu'elle effectue, la voiture doit se rendre compte du nombr
 ## Kivy
 Kivy est une bibliothèque de développement d'interface graphique multi-plateforme open source pour Python et peut fonctionner sur iOS, Android, Windows, OS X et GNU / Linux. Il aide à développer des applications qui utilisent une interface utilisateur multi-touch innovante. L'idée fondamentale derrière Kivy est de permettre au développeur de créer une application une fois et de l'utiliser sur tous les appareils, ce qui rend le code réutilisable, permettant une conception d'interaction rapide et facile et un prototypage rapide.
 
-
+## Vidéo YouTube:
+https://www.youtube.com/watch?v=TrTpPhfr8Gw
 ## Apprentissage par renforcement:
 ### État
 Dans cette application, un état est défini par 5 variables :
@@ -110,4 +111,3 @@ Dans ce modèle d'apprentissage profond, deux fonctions d'activations sont appli
 <li>La fonction Softmax est appliquée au vecteur des sorties du réseau, c'est à dire, celui des Q valeurs estimées de l'état passée entrée et de chacune des actions.</li>
 </ul>
          
-<iframe width="900" height="506" src="https://www.youtube.com/embed/TrTpPhfr8Gw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
