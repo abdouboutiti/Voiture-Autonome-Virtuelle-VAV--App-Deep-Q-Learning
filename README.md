@@ -110,5 +110,4 @@ Dans ce modèle d'apprentissage profond, deux fonctions d'activations sont appli
 <li>La fonction Softmax est appliquée au vecteur des sorties du réseau, c'est à dire, celui des Q valeurs estimées de l'état passée entrée et de chacune des actions.</li>
 </ul>
          
-
-
+<iframe width="900" height="506" src="https://www.youtube.com/embed/TrTpPhfr8Gw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
